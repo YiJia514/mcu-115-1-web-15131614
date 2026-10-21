@@ -1,13 +1,17 @@
 header {
-    .material-symbols-outlined {
+  .material-symbols-outlined {
     font-size: 1.5rem;
     line-height: 1;
   }
+
   border-bottom: solid 1px var(--border-color);
+
   .container {
     width: 100%;
     max-width: 90vw;
     box-sizing: border-box;
+    margin: 0px auto;
+
     .header-inner {
       height: 4rem;
       display: flex;
@@ -17,6 +21,7 @@ header {
       div.search {
         display: flex;
         gap: 0;
+
         input {
           border-top-left-radius: 1rem;
           border-bottom-left-radius: 1rem;
@@ -25,6 +30,7 @@ header {
           border: none;
           background-color: var(--gray-color-100);
         }
+
         button {
           border-top-right-radius: 1rem;
           border-bottom-right-radius: 1rem;
@@ -33,17 +39,18 @@ header {
           background-color: var(--gray-color-100);
           cursor: pointer;
         }
-         button {
-        background-color: transparent;
-        padding: 0.5rem;
-        border: none;
-        cursor: pointer;
-        color: var(--text-color);
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
+        
       }
-      }
+       button {
+          background-color: transparent;
+          padding: 0.5rem;
+          border: none;
+          cursor: pointer;
+          color: var(--text-color);
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+        }
 
       .site-title {
         margin: 0px;
